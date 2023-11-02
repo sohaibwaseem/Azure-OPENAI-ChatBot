@@ -15,7 +15,7 @@ from langchain.chat_models import AzureChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
 from langchain.vectorstores import  Pinecone
 from langchain.embeddings.openai import OpenAIEmbeddings
-import pinecone
+# import pinecone
 import os
 import openai
 from langchain.document_loaders import UnstructuredPDFLoader, OnlinePDFLoader, PyPDFLoader
