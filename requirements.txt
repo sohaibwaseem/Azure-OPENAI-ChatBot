@@ -1,13 +1,13 @@
-faiss-cpu==1.7.4
-huggingface-hub==0.17.3
-langchain==0.0.227
-langchainplus-sdk==0.0.20
-openai==0.27.8
-openapi-schema-pydantic==1.2.4
-pypdf== 3.16.4
-PyPDF2==3.0.1
-textract1.6.5
-tiktoken==0.5.1
-tokenizers==0.14.1
-streamlit==1.28.0
-streamlit-chat==0.1.1
+faiss-cpu
+huggingface-hub
+langchain
+langchainplus-sdk0
+openai
+openapi-schema-pydantic
+pypdf
+PyPDF2
+textract
+tiktoken
+tokenizers
+streamlit
+streamlit-chat
