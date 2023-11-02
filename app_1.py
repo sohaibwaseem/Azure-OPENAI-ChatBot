@@ -1,12 +1,10 @@
 import streamlit as st
 from ChatBot import final_result
 from streamlit_chat import message
-from embeddings import get_embeddings
 import textract
 import os
 import glob
 import pandas as pd
-import matplotlib.pyplot as plt
 from transformers import GPT2TokenizerFast
 from langchain.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
