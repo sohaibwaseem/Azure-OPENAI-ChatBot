@@ -9,3 +9,4 @@ tiktoken
 tokenizers
 streamlit
 streamlit-chat
+transformers
