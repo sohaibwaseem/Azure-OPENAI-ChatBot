@@ -1,7 +1,6 @@
 import streamlit as st
 from ChatBot import final_result
 from streamlit_chat import message
-from embeddings import get_embeddings
 import textract
 import subprocess
 import os
