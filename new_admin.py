@@ -11,7 +11,6 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
-from credentials import OPENAI_API_KEY, PINECONE_API_KEY, PINECONE_API_ENV
 from langchain.chat_models import AzureChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
 from langchain.vectorstores import  Pinecone
@@ -23,10 +22,10 @@ from langchain.document_loaders import UnstructuredPDFLoader, OnlinePDFLoader, P
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 
-os.environ['OPENAI_API_KEY'] = 'your_openai_key'
-os.environ['OPENAI_API_TYPE'] = 'your_openai_type'
-os.environ['OPENAI_API_VERSION'] = 'your_openai_version'
-os.environ['OPENAI_API_BASE'] = 'your_openai_base_endpoint'
+os.environ['OPENAI_API_KEY'] = 'a194af7e52e64d22b86f65ac97bc0fd9'
+os.environ['OPENAI_API_TYPE'] = 'azure'
+os.environ['OPENAI_API_VERSION'] = '2023-09-15-preview'
+os.environ['OPENAI_API_BASE'] = "https://vipindemo.openai.azure.com/"
 
 embeddings = OpenAIEmbeddings(model = 'text-embedding-ada-002', 
                                 deployment='vipin-ada',
