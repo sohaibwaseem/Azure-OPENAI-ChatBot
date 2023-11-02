@@ -33,6 +33,7 @@ embeddings = OpenAIEmbeddings(model = 'text-embedding-ada-002',
                                 openai_api_version= os.environ['OPENAI_API_VERSION'],
                                 openai_api_base= os.environ['OPENAI_API_BASE'])
 
+print(os.getcwd())
 def create_embeddings():
     upload_dir = "uploads"
     if not os.path.exists(upload_dir):
