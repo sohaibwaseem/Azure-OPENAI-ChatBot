@@ -1,9 +1,7 @@
 faiss-cpu
 huggingface-hub
 langchain
-langchainplus-sdk0
 openai
-openapi-schema-pydantic
 pypdf
 PyPDF2
 textract
